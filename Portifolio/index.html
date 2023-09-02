@@ -16,13 +16,13 @@
         </header>
         <nav>
             <ul>
-                <li><a href="#">Meus Serviços</a></li>
-                <li><a href="#">Fale Comigo</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#services">Meus Serviços</a></li>
+                <li><a href="#contact">Fale Comigo</a></li>
+                <li><a href="#portifolioTitle">Portfolio</a></li>
             </ul>
         </nav>
     </div>
-    <div class="container flex">
+    <div class="container center" id="clients">
         <div id="headerCta">
             <h1>Olá, meu nome<br> é Maria</h1>
             <p>Sou programadora e gostaria de apresentar meu</p>
@@ -31,6 +31,82 @@
         </div>
         <div id="headerImg">
             <img src="./img/maria.png" alt="">
+        </div>
+    </div>
+    <div class="container center">
+        <div class="card">
+            <p>Alguns dos<br> meus clientes</p>
+        </div>
+        <div class="card">
+            <img src="./img/apple.svg" alt="">
+        </div>
+        <div class="card">
+            <img src="./img/slack.svg" alt="">
+        </div>
+        <div class="card">
+            <img src="./img/spotify.svg" alt="">
+        </div>
+    </div>
+    <div class="container center" >
+        <div class="service" id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus Serviços</h1>
+            <p>Vou ajudar a sua empresa a</p>
+            <p>alcançar grandes resultados.</p>
+        </div>
+    </div>
+    <div class="container center">
+        <div class="services">
+            <img src="./img/consult.svg" alt="">
+            <p><strong>Consultoria</strong></p>
+            <p>Te ajudo a organizar sua empresa</p>
+            <p>e melhorar seus resultados.</p>
+        </div>
+        <div class="services">
+            <img src="./img/email.svg" alt="">
+            <p><strong>Email Marketing</strong></p>
+            <p>Gerenciar campanhas é difícil.</p>
+            <p>Conte comigo para te ajudar.</p>
+        </div>
+        <div class="services">
+            <img src="./img/sites.svg" alt="">
+            <p><strong>Criação de Sites</strong></p>
+            <p>Desenvolvo seu site inteiro</p>
+            <p>do zero e te entrego prontinho.</p>
+        </div>
+    </div>
+    <div class="container center"  id="contact">
+        <div class="contactImg" >
+            <img src="./img/woman.jpg" alt="">
+        </div>
+        <div class="contactForm flex">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p>Digite aqui seu endereço de e-mail. Eu entrarei em</p>
+            <p>contato para fornecer um diagnóstico gratuito.</p>
+
+            <form action="https://formspree.io/f/xbjvyopy" method="post">
+                <input id="email" type="email" name="email" id="email" required placeholder="E-mail">
+                <input id="btn" type="submit" value="Enviar">
+            </form>
+        </div>
+
+    </div>
+    <div class="container">
+    <div class="portifolioTitle flex" id="portifolioTitle">
+        <h2 class="red">Conheça meu trabalho</h3>
+        <h1 class="black">Portfolio</h1>
+    </div>
+    </div>
+    <div class="container center">
+        <div class="sites flex">
+            <img src="./img/site1.svg" alt="">
+        </div>
+        <div class="sites">
+            <img src="./img/site2.svg" alt="">
+        </div>
+        <div class="sites">
+            <img src="./img/site3.svg" alt="">
         </div>
     </div>
 </body>
