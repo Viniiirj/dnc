@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: rgb(3, 159, 231);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#nameAndTitle{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    font-family: 'Hubballi', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+#contact {
+    list-style: none;
+}
+
+#contact i {
+    width: 30px;
+    color: rgb(3, 159, 231);
+
+}
+
+main {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 20px;
+    margin: auto;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card h3 {
+    font-family: 'Hubballi', sans-serif;
+}
+
+.card span {
+    font-weight: bold;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.card p {
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card ul{
+    padding-left: 20px;
+    font-size: 15px;
+}
