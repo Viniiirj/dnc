@@ -64,7 +64,7 @@ nav ul li a {
     line-height: 32px;
 }
 
-#headerCta a {
+#btnCta{
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -73,4 +73,17 @@ nav ul li a {
     background: #1F7CFF;
     padding: 12px 20px;
     text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+#headerImg img{
+    width: 100%;
+    border-radius: 60px;
+
+}
+
+.flex {
+    align-items: center;
 }
